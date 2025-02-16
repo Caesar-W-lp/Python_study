@@ -15,6 +15,8 @@ def use_rename():
     # os.rename('F:\\jetbrains\\pycharm\\2024wangdao\\day7\\test\\file_8.txt', 'file_8_1.txt')
 
     # 也可以使用相对路径
+    # 相对路径是指相对当前代码执行路径的路径
+    # 直接写文件名就是默认为当前目录的某个文件
     # .是代表当前目录，.\\一般都是配套使用
     os.rename('.\\file_8_1.txt', '.\\file_8.txt')
 
