@@ -1,6 +1,6 @@
 # 作者:李一安
 # 2025年02月07日17时03分24秒
-# 1713450722@qq.com
+
 
 class father1:
     def __init__(self, age, *args):# 实际传入的是 年龄 分数
